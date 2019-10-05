@@ -127,7 +127,17 @@ aside#sidebar{
 	width:30%;
 	margin-top:10px;
 }
+aside#sidebar-left{
+	float:left;
+	width:30%;
+	margin-top:10px;
+}
 aside#sidebar a{ 
+		text-decoration:none;
+		text-transform:uppercase;
+		font-size:17px;
+	}
+aside#sidebar-left a{ 
 		text-decoration:none;
 		text-transform:uppercase;
 		font-size:17px;
@@ -174,6 +184,11 @@ footer{
 	#Threats .box,
 	article#main-col,
 	aside#sidebar{
+		float:none;
+		text-align:center;
+		width:100%;
+	}
+	aside#sidebar-left{
 		float:none;
 		text-align:center;
 		width:100%;
