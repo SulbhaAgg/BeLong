@@ -74,7 +74,7 @@ body{
  /*showcase*/
  #showcase{
 	 min-height:400px;
-	 background:url('../Images/potrait.jpg') no-repeat -300px -200px;
+	 background:url('potrait.jpg') no-repeat -300px -200px;
 	 text-align:center;
 	 color:#ffffff;
  }
@@ -127,21 +127,13 @@ aside#sidebar{
 	width:30%;
 	margin-top:10px;
 }
-aside#sidebar-left{
-	float:left;
-	width:30%;
-	margin-top:10px;
-}
+
 aside#sidebar a{ 
 		text-decoration:none;
 		text-transform:uppercase;
 		font-size:17px;
 	}
-aside#sidebar-left a{ 
-		text-decoration:none;
-		text-transform:uppercase;
-		font-size:17px;
-	}
+
 /*Main-col article*/
 aside#sidebar .info input, aside#sidebar .info textarea{
 	width:90%;
@@ -151,7 +143,14 @@ article#main-col{
 	float:left;
 	width:65%;
 }
-
+article#vio-left{
+	float:left;
+	width:50%;
+}
+article#vio-right{
+	float:right;
+	width:50%;
+}
 /*Donation*/
 ul#Donate li{
 	list-style: none;
@@ -184,11 +183,6 @@ footer{
 	#Threats .box,
 	article#main-col,
 	aside#sidebar{
-		float:none;
-		text-align:center;
-		width:100%;
-	}
-	aside#sidebar-left{
 		float:none;
 		text-align:center;
 		width:100%;
